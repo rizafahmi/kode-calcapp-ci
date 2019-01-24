@@ -12,5 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "jest": "23.6.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
