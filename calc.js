@@ -8,10 +8,16 @@ const add = (a, b) => {
 const sub = (a, b) => a - b;
 const mul = (a, b) => a * b;
 const div = (a, b) => a / b;
+const sqrt = (a) => a * a;
+const sin = (a) => Math.sin(a);
+const cos = (a) => Math.cos(a);
 
 module.exports = {
   add,
   sub,
   mul,
-  div
+  div,
+  sqrt,
+  sin,
+  cos
 };
